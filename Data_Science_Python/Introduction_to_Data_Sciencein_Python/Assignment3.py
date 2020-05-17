@@ -521,5 +521,6 @@ def plot_optional():
     This is a bubble chart showing % Renewable vs. Rank. The size of the bubble corresponds to the countries' \
     2014 GDP, and the color corresponds to the continent.")
     #plt.savefig('/mnt/d/SebasUbuntu/Documentos/Graficas/plot_optional.pdf')
+    #plt.show()
 
 plot_optional()
