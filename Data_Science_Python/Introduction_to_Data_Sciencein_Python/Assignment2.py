@@ -263,19 +263,3 @@ answer_eight()
 2355	Rhode Island  Washington County
 3163	Wisconsin	  Washington County'''
 #-----------------------------------------------------------------------
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
