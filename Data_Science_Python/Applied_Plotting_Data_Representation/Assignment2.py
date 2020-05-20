@@ -74,7 +74,7 @@ def Time_series():
 	plt.plot(max_0415.values, c = '#1b7021', label ='Record Maximun')
 	plt.plot(min_0415.values, c = '#00ffc7', label ='Record minimun')
 
-	plt.xlabel('Day', fontsize=20)
+	plt.xlabel('Month', fontsize=20)
 	plt.ylabel('Temperature °C', fontsize=20)
 	plt.title('Ten Year Record (2005-2014) Was Broken in 2015', fontsize=25)
 
