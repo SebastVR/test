@@ -56,7 +56,7 @@ for i in range(len(ax)):
 	ax[i].set_xlabel('Value')
 	plt.tight_layout()
 	plt.savefig('/mnt/d/SebasUbuntu/Documentos/GraficasHis/%s.png'  % (titles[i]))
-    
+
 #--------- CREATE GIF ---------
 imgs = glob.glob("/mnt/d/SebasUbuntu/Documentos/GraficasHis/*.png")#Save all imagen in file
 # Create the frames
