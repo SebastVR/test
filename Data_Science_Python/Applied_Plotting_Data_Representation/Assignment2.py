@@ -24,6 +24,7 @@ The data you have been given is near Ann Arbor, Michigan, United States, and the
 import matplotlib.pyplot as plt
 import mplleaflet
 import pandas as pd
+import numpy as np
 
 def leaflet_plot_stations(binsize, hashid):
 
@@ -43,6 +44,10 @@ def leaflet_plot_stations(binsize, hashid):
 leaflet_plot_stations(400,'fb441e62df2d58994928907a91895ec62c2c42e6cd075c2700843b89')
 
 #---------- ANSWER ----------
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+
 def Time_series():
 	df = pd.read_csv(
 		'fb441e62df2d58994928907a91895ec62c2c42e6cd075c2700843b89.csv')
@@ -120,7 +125,7 @@ def Time_series():
 	ax.set_xticks(minor_ticks, minor = True)
 	ax.set_xticklabels(labels, minor = True)
 	ax.tick_params(axis='x', which = 'minor', length= 0)
-	plt.savefig('/mnt/d/SebasUbuntu/Documentos/Graficas/Time Series.png')
+	plt.savefig('/mnt/d/SebasUbuntu/Documentos/Graficas/Time_Series.png')
 	return df.head()
 
 Time_series()
