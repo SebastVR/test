@@ -100,7 +100,7 @@ sm.set_array([])
 plt.colorbar(sm, ticks=np.linspace(0,1,11), 
 #              boundaries=np.arange(-0.05,1.1,.1),
             extend='both')
-plt.savefig('/mnt/d/SebasUbuntu/Documentos/Graficas/BOX.png')
+plt.savefig('/mnt/d/SebasUbuntu/Documentos/Graficas/Box_Distribution.png')
 #0.0
 #0.592439146455
 #0.42831456663
