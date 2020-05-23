@@ -57,7 +57,6 @@ import matplotlib.pyplot as plt
 import matplotlib as mpl
 import scipy.stats
 
-
 def mean_confidence_interval(data, confidence=0.95):
     a = 1.0 * np.array(data)
     n = len(a)
@@ -74,7 +73,7 @@ def getColor(val, mini, maxi, cmap):
 #     else:
     print ((val - (mini))/ ((maxi) -(mini) ))
     return cmap ((val - (mini))/ ((maxi) -(mini) ))
-#
+
 #%matplotlib notebook
 
 typColor = '#%02x%02x%02x' % (115,115,115)
