@@ -367,5 +367,6 @@ def accuracy_plot():
     plt.xticks([0,1,2,3], ['Malignant\nTraining', 'Benign\nTraining', 'Malignant\nTest', 'Benign\nTest'], alpha=0.8);
     plt.title('Training and Test Accuracies for Malignant and Benign Cells', alpha=0.8)
     plt.savefig('/mnt/d/SebasUbuntu/Documentos/Graficas/accuracy_plot.png')
+
 accuracy_plot() 
 #-----------------------------------------------------------------------
